@@ -3,9 +3,7 @@ import React, { Component } from 'react';  //imrc
 class Counter extends Component {     //cc 
     state = {
         count: 0,
-        tags: ["tag1", "tag2", "tag3"],
-        condition: true,
-        label: "red"
+        tags: ["tag1", "tag2", "tag3"]
     };
 
     render() { 
