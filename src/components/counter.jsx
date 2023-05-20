@@ -4,7 +4,8 @@ class Counter extends Component {     //cc
     state = {
         count: 0,
         tags: ["tag1", "tag2", "tag3"],
-        condition: true
+        condition: true,
+        label: "red"
     };
 
     render() { 
